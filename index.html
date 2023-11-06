@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Input Your Information</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="content.js"></script>
+</head>
+<body>
+    <h1>Input Your Information</h1>
+    <form action="output.html">
+        <h2>Personal Information</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="hobby">Hobby:</label>
+        <input type="text" id="hobby">
+
+        <h2>Academic Information</h2>
+        <label for="university">University:</label>
+        <input type="text" id="university" required>
+        
+        <label for="college">College:</label>
+        <input type="text" id="college" required>
+
+        <h2>Professional Information</h2>
+        <label for="qualification">Educational Qualification:</label>
+        <input type="text" id="qualification" required>
+
+        <h2>Future Plans</h2>
+        <label for="plans">Future Plans:</label>
+        <textarea id="plans" rows="4" required></textarea>
+
+        <input type="submit" value="Submit" onclick="displayInformation();">
+    </form>
+</body>
+</html>

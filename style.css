@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+}
+
+#output-name,
+#output-email,
+#output-hobby,
+#output-university,
+#output-college,
+#output-qualification,
+#output-plans {
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 10px;
+    color: #007bff;
+}
+
+#output-university, #output-college {
+    color: #28a745;
+}
+
+#output-qualification {
+    color: #dc3545;
+}
+
+#output-plans {
+    color: #ffc107;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
