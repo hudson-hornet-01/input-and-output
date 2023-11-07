@@ -12,6 +12,10 @@ h1 {
     color: #fff;
 }
 
+h2 {
+    color: #007bff;
+}
+
 form {
     max-width: 600px;
     margin: 0 auto;
@@ -35,6 +39,18 @@ input, textarea {
     font-size: 16px;
 }
 
+#personal-info,
+#academic-info,
+#professional-info,
+#future-plans {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
 #output-name,
 #output-email,
 #output-hobby,
@@ -45,7 +61,17 @@ input, textarea {
     font-weight: bold;
     font-size: 18px;
     margin-left: 10px;
-    color: #007bff;
+}
+
+p {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+#output-name,
+#output-email,
+#output-hobby{
+    color: #c50fad;
 }
 
 #output-university, #output-college {
@@ -69,6 +95,10 @@ button {
     font-size: 18px;
     cursor: pointer;
     transition: background-color 0.3s;
+}
+
+#form-button{
+    text-align: center;
 }
 
 button:hover {
