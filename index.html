@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Input Your Information</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="content.js"></script>
+    <!-- styles.css -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- process.js -->
+    <script src="process.js"></script>
 </head>
 <body>
     <h1>Input Your Information</h1>
@@ -34,7 +36,9 @@
         <label for="plans">Future Plans:</label>
         <textarea id="plans" rows="4" required></textarea>
 
-        <input type="submit" value="Submit" onclick="displayInformation();">
+        <div id="form-button">
+            <button type="submit" onclick="displayInformation();">Submit</button>
+        </div>
     </form>
 </body>
 </html>
